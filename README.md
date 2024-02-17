@@ -6,17 +6,21 @@ To use this script, write a file of line-separated Leetcode problem titles, and 
 `vim titles` or `nano titles` to edit the file
 For the contents of the file:
 
+```
 Two Sum
 Add two numbers
 Longest Substring without repeating Characters
 Median of Two Sorted Arrays
 Longest Palindromic
+```
 
 Run the file with the proper argument: `./leetcode-search titles`
 The program will ask for clarification on partial matches, for instance for Two Sum it will ask which Two Sum in the series you meant to choose. You will have to manually enter the number for that from the list.
 The result:
-`- ( ) 1. Two Sum
+```
+- ( ) 1. Two Sum
 - ( ) 2. Add two numbers
 - ( ) 3. Longest Substring without repeating Characters
 - ( ) 4. Median of Two Sorted Arrays
 - ( ) 5. Longest Palindromic`
+```
